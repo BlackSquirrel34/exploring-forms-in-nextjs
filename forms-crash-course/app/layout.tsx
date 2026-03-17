@@ -51,6 +51,18 @@ export default function RootLayout({
           >
             React Hook Form B
           </Link>
+          <Link
+            href="/min-use-action-state"
+            className="text-white underline hover:text-blue-500 transition-colors"
+          >
+            Minimal useActionState
+          </Link>
+          <Link
+            href="/expand-use-action-state"
+            className="text-white underline hover:text-blue-500 transition-colors"
+          >
+            Expanded useActionState
+          </Link>
         </nav>
         <main className="mx-auto max-w-2xl">{children}</main>
         <Toaster />
