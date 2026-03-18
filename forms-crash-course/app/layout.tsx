@@ -38,12 +38,12 @@ export default function RootLayout({
           >
             useFormState
           </Link>
-          {/* <Link
-            href="/react-hook-form"
+          <Link
+            href="/react-hook-form-a"
             className="text-white underline hover:text-blue-500 transition-colors"
           >
-            React Hook Form B 
-          </Link> */}
+            React Hook Form A
+          </Link>
 
           <Link
             href="/react-hook-form-b"

@@ -10,8 +10,10 @@ export const dealSchema = z.object({
   couponCode: z
     .string({ message: "Coupon code is required" })
     .min(5, { message: "Coupon code must be at least 5 characters" }),
-  discount: z.coerce
-    .number({ message: "Discount percentage is required" })
+  discount: z
+    .number({
+      message: "Discount must be a number",
+    })
     .min(1, { message: "Discount must be at least 1%" })
     .max(100, { message: "Discount cannot be more than 100%" }),
 });
